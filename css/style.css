@@ -1,0 +1,41 @@
+body{
+  margin-left: 0;
+  margin-top:0;
+  text-align: center;
+  background-color: rgb(239, 239, 239);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+#page{
+    background-color: #fff;
+    width:900px;
+    height: 450px;
+    border: 5px  double black;
+    margin: 50px auto;
+    padding:40px;
+}
+#bigimage{
+    width:60%;
+}
+#navigation{
+    border-top: 4px solid black;
+    border-bottom: 1px solid black;
+}
+#navigation li{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 15px;
+}
+#navigation a{
+    text-decoration: none;
+    color:#000;
+
+}
+#navigation .on{
+    color:red;
+}
+p{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:5px;
+}
